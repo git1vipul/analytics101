@@ -85,3 +85,7 @@ summary()
 tapply(df$marks, df$cource, sum)
 tapply(df$marks, df$gender, sum)
 tapply(df$marks, df$gender, mean)
+df$gender = NULL
+df
+df[df$dept == 'Dept1',]
+df[df$marks>90, 2 ]
