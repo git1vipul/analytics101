@@ -21,3 +21,18 @@ name(lorem)
 v8['hekko']
 v8[2]
 v8[c('hekko', 'helo')]
+
+df = data.frame(rollno=c(1,2,3), name=c('Rohit', 'Lalait', 'Hitesh'), 
+                cource = c('MBA', 'BBA','MCA'), 
+                dept = c('Dept1', 'Dept2', 'Dept1'), 
+                marks = c(floor(runif(3,50,100))) )
+d3f = fix(df)
+df
+fix(df)
+class(df)
+str(df)
+summary(df)
+
+
+ls()
+#rm(list=ls())
